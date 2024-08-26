@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    padding:0;
+    margin:0;
+}
+
+.Contenidos_Pagina{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.Contenidos_Encriptador{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 240px;
+    top: 148px;
+
+}
+
+.Ventana_Encriptado{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    width:400px;
+    height:650px;
+    border-radius: 32px;
+    background-color: white;
+    top:40px;
+    left:1000px;
+    
+}
+
+.Parrafo_Ventana_Encriptador{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+    
+
+}
+
+.Texto_Parrafo_1{
+    text-align: center;
+    font-size: 1.5rem;
+    font-family:"Inter", sans-serif;
+    font-weight: 700;
+    width:336px;
+    height:58px;
+    overflow: scroll;
+}
+
+
+.Texto_Parrafo_2{
+    text-align: center;
+    font-size: 1rem;
+    font-family:"Inter", sans-serif;
+    width:336px;
+    height:48px;
+    color: #868E96;
+}
+
+.Texto_Parrafo_3{
+    text-align: center;
+    font-size: 16px;
+    font-family:"Inter", sans-serif;
+    width:336px;
+    height:48px;
+    color: #868E96;
+    
+}
+
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: #F3F5FC;
+    box-sizing:border-box;
+}
+
+.container__input{
+    resize: none;
+    background-color: #F3F5FC;
+    border:  0px solid rgb(0, 255, 72);
+    height: 300px;
+    font-size: 2rem;
+    font-family:"Inter", sans-serif; 
+    color: #0A3871;
+  
+
+}
+
+::placeholder{
+    opacity: 1;
+    font-size: 2rem;
+    font-family:"Inter", sans-serif; 
+    color: #0A3871;
+    
+}
+
+.Texto_reglas{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 0.8rem;
+    font-family:"Inter", sans-serif; 
+    color: #495057;
+    
+    
+}
+
+.botones{
+    display: flex;
+    gap:24px;
+}
+
+.container__boton1{
+    border-radius: 24px;
+    background: #0A3871;
+    height: 67px;
+    width: 328px;
+    font-family:"Inter", sans-serif;
+    font-size: 1.1rem;
+    border: none;
+    color: white;
+}
+
+.container__boton1:hover{
+    border-radius: 24px;
+    background: #3269ab;
+    height: 67px;
+    width: 328px;
+    font-family:"Inter", sans-serif;
+    font-size: 1.1rem;
+    border: none;
+    color: white;
+}
+
+.container__boton2{
+    border-radius: 24px;
+    background: #D8DFE8;
+    height: 67px;
+    width: 328px;
+    font-family:"Inter", sans-serif;
+    font-size: 1.1rem;
+    border: 1px solid #0A3871;
+    color: #0A3871;
+}
+
+
+.container__boton2:hover{
+    border-radius: 24px;
+    background: #697b91;
+    height: 67px;
+    width: 328px;
+    font-family:"Inter", sans-serif;
+    font-size: 1.1rem;
+    border: none;
+    color: white;
+}
+
+.Contenidos__Encriptador2{
+    display: flex;
+    flex-direction: column;
+    gap:14px;
+    position: relative;
+    top:5em;
+   
+}
+
